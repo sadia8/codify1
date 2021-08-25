@@ -1,0 +1,158 @@
+
+ * {font-family:'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+}
+h1 {text-align: center;
+    text-shadow: 5cm;
+    color: red;
+    font-size: 100px;;
+    font-weight: 500;
+
+}
+
+body{
+    background-image: url(menu.lnk);
+    background-size:cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.menu-bar
+{
+   background-color: brown;
+   display:block;
+    
+    height: 100%;
+    width:100%;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    text-align:center;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+    list-style:none;
+    margin-left: 5px;
+    
+}
+.menu-bar ul li
+{
+    width: 50px;
+  margin-left:80px;
+  text-align:justify;
+  display:inline;
+  
+}
+.menu-bar ul li a
+{ 
+    text-decoration: none;
+    color:#fff;
+   
+    
+    
+    
+    display:block;
+    
+    
+
+    
+   
+}
+.menu-bar ul li a
+{ 
+    text-decoration: none;
+    color:#fff;
+   
+    
+    
+    
+    display:block;
+    
+    
+
+    
+   
+}
+
+.active, .menu-bar ul li:hover
+{
+    background-color: rosybrown;
+    border-radius:3px;
+    margin-left: 5px;
+    display:block;
+    
+}
+
+.sub-menu-1
+{
+    display: none;
+    
+   
+}
+
+.sub-menu-1 ul{
+    display: inline-flex;
+list-style: none;
+margin-left: 5px;
+}
+.sub-menu-1 ul li
+{
+    
+margin-left: 80px;
+text-align: justify;
+display: inline;
+    
+    
+   
+}
+.sub-menu-1 ul li a{
+ 
+    text-decoration: none;
+    color:#fff;
+   
+    
+    
+    
+    display:block;
+    
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+    display:block;
+    border-radius:3px;
+    margin-left: 5px;
+
+    background-color: rosybrown;;
+  
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display:block;
+    
+    
+}
+
+.row
+{
+    display:block;
+    position:absolute;
+    width:100%;
+    
+}
+nav{
+    height:70px;
+
+    box-shadow: 0 3px 15px;
+}
+.dropdown
+{
+    background-color: brown;
+    
+}
+.dropdown option{
+    font-family:cursive;
+}
+
+
